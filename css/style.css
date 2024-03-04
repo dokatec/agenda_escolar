@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.container__img {
+  width: 100%;
+  height: 100vh;
+}
+
+.container__img img {
+  width: 100%;
+  height: 100vh;
+}
+
+.container__login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.container__login form {
+  width: 60%;
+  height: auto;
+}
+.container__login input {
+  width: 100%;
+  height: 2.5rem;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #a4a4a4;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9747ff;
+}
+
+.container__login button {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+  background-color: #9747ff;
+  color: #fff;
+  font-weight: 400;
+}
+
+.container__login a {
+  text-decoration: none;
+  color: #9747ff;
+}
+
+.container__login a:hover {
+  font-weight: 600;
+}
+
+/* dashboard */
+
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard__menu {
+  width: 15%;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #d7d7d7;
+}
+.dashboard__menu img {
+  margin: 20px 0;
+}
+
+.dashboard__menu nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dashboard__menu nav a {
+  text-decoration: none;
+  color: #a5a5a5;
+  text-align: justify;
+  width: 90%;
+  height: 2.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.4s;
+  font-weight: 500;
+}
+
+.dashboard__menu nav a:hover {
+  background-color: #9747ff;
+  color: #fff;
+}
+
+.dashboard__main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard__header {
+  width: 100%;
+  height: 10vh;
+  background-color: #fff;
+  color: #a5a5a5;
+  border-bottom: 1px solid #d7d7d7;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.dashboard__header img {
+  width: 5%;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.dashboard__header div {
+  margin: 0 10px;
+}
+
+.dashboard__principal {
+  width: 100%;
+  height: 90vh;
+  background-color: #f4f8f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboard__card {
+  width: 60%;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 30px;
+}
+.dashboard__principal form {
+  width: 60%;
+  height: auto;
+}
+
+.dashboard__principal form input {
+  width: 65%;
+  height: 2.5rem;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9747ff;
+}
+
+.dashboard__principal form select {
+  width: 34%;
+  height: 2.5rem;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6c6a6a;
+}
